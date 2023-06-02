@@ -9,72 +9,30 @@
   </head>
 
   <!-- Homepage URLS -->
-  <body>
-    <h1>Homepage</h1>
-    <a>
-      <p>
-        <a href="https://aur.archlinux.org/"
-          title="Arch Linux User Repository">
-          AUR
-        </a>
-      </p>
-      <p>
-        <a href="https://soap2day.to/home"
-          title="Watch any movie, any time">
-          Soap 
-        </a>
-      </p>
-      <p>
-        <a href="https://www.youtube.com/"
-          title="Broadcast Yourself"> 
-          YouTube 
-        </a>
-      </p>
-      <p>
-        <a href="https://thehiddenbay.com/"
-          title="The better PirateBay">
-          TheBay
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/"
-          title="git push main">
-          GitHub
-        </a>
-      </p>
-      <p>
-        <a href="https://www.amazon.com/"
-          title="Shop till you drop">
-          Amazon
-        </a>
-      </p>
-      <p>
-        <a href="https://www.reddit.com/"
-          title="Redditors can suck it">
-          Reddit
-        </a>
-      </p>
-      <p>
-        <a href="https://usevia.app/">
-          VIA
-        </a>
-      </p>
-      <p>
-        <a href="https://wootility.io/"> 
-          Wootility
-        </a>
-      </p>
-      <p>
-        <a href="https://online.patelco.org/DashboardV2"
-          title="Online Banking">
-          Patelco
-        </a>
-      </p>
-      <p>
-        <a href="https://4chan.org/index.php">
-          4chan
-        </a>
-      </p>
-    </a>
+  <body id="mainBody">
+    <!-- Banner Image -->
+    <div class="image" id="imageDiv">
+      <img alt="cover-image" id="image" src="img/image1.webp">
+    </div>
+
+  <link-grid class="slide-in">
+    <greeting>Welcome back!</greeting>
+    <date id="date"></date>
+    <url-list> 
+      <li>~/general</li>
+      <li><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+      <li><a href="https://soap2day.to/home" title="Watch any movie, any time">Soap </a></li>
+      <li><a href="https://www.youtube.com/" title="Broadcast Yourself">YouTube</a></li>
+      <li><a href="https://thehiddenbay.com/" title="The better PirateBay">TheBay</a></li>
+      <li><a href="https://github.com/" title="git push main">GitHub</a></li>
+      <li><a href="https://www.amazon.com/" title="Shop till you drop">Amazon</a></li>
+      <li><a href="https://www.reddit.com/" title="Redditors can suck it">Reddit</a></li>
+      <li><a href="https://usevia.app/">VIA</a></li>
+      <li><a href="https://wootility.io/">Wootility</a></li>
+      <li><a href="https://online.patelco.org/DashboardV2" title="Online Banking">Patelco</a></li>
+      <li><a href="https://4chan.org/index.php">4chan</a></li>
+    </url-list>
+  </link-grid>
+  <script type="text/javascript" src="js/dateHelper.js"></script>
   </body>
 </html>
