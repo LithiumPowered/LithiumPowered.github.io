@@ -35,6 +35,15 @@ img {
 	object-fit: cover;
 }
 
+img#webApp {
+	height: 25px;
+	width: 25px;
+
+	margin: 1em;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
 .enableTransition {
 	transition: background 0.5s ease-out, color 0.5s ease-out;
 }
