@@ -14,7 +14,7 @@ function showTime() {
     hour12: false,
   };
 
-  const formattedDate = date.toLocaleString("en-GB", options);
+  const formattedDate = date.toLocaleString("en-US", options);
   const [dayOfWeek, dateStr, time] = formattedDate.split(", ");
   dateElement.innerHTML = `${dayOfWeek}, ${time} | ${dateStr}`;
 }
