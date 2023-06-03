@@ -2,7 +2,7 @@ const imageDiv = document.getElementById("imageDiv");
 const image = document.getElementById("image");
 const mainBody = document.getElementById("mainBody")
 
-const imageFiles = ["../src/images/image1.webp", "../src/images/image2.webp", "../src/images/image3.webp"];
+const imageFiles = ["img/image1.webp", "img/image2.webp", "img/image3.webp"];
 
 const tokyoNightPurple = "#bb9af7";
 const tokyoNightBackground = "#1a1b26"
