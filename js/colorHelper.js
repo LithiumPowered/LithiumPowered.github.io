@@ -4,16 +4,10 @@ const mainBody = document.getElementById("mainBody")
 
 const imageFiles = ["img/image1.webp", "img/image2.webp", "img/image3.webp"];
 
-const tokyoNightPurple = "#bb9af7";
-const tokyoNightBackground = "#1a1b26"
-const tokyoNightBlue = "#7aa2f7"
-const tokyoNightForeground = "#CDD6F4"
-const tokyoNightYellow = "#E0AF68"
-
 const colors = [
-  { color: tokyoNightYellow, background: tokyoNightBackground, hlcol: tokyoNightBlue, linkcol: "#A8B8CF", hovercol: tokyoNightPurple }, // colors for image 1
-  { color: "#D2C7CB", background: "#15191d", hlcol: "#28725A", linkcol: "#9fadc6", hovercol: "#9B5856" }, // colors for image 2
-  { color: tokyoNightPurple, background: tokyoNightBackground, hlcol: tokyoNightBlue, linkcol: tokyoNightForeground, hovercol: tokyoNightYellow },  // colors for image 3
+  { color: "#ffffff", background: "#1D1D20", hlcol: "#dfdfdf", linkcol: "#a2a2a2", hovercol: "#ffffff" }, // colors for image 1
+  { color: "#B7B7B9", background: "#222735", hlcol: "#C4C1BD", linkcol: "#9A9BA3", hovercol: "#999FB3" }, // colors for image 2
+  { color: "#36691F", background: "#313630", hlcol: "#B77281", linkcol: "#85889F", hovercol: "#C89C5D" }, // colors for image 3
 ];
 
 function preloadImages() {

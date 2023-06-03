@@ -20,6 +20,8 @@ body {
 	background: var(--bg-color);
 	padding: 1em;
 	font-family: SpaceMono;
+
+	overflow: hidden;
 }
 
 img {
@@ -36,12 +38,14 @@ img {
 }
 
 img#webApp {
-	height: 18px;
-	width: 18px;
-
-	margin: 1.25em 0em;
+	height: 20px;
+	width: 20px;
+	margin-right: 0.5em;
 	border-radius: 0px;
 	box-shadow: none;
+	
+	filter: grayscale(0.9);
+	opacity: 0.4;
 }
 
 .enableTransition {
@@ -57,6 +61,11 @@ img:hover {
 		1.1
 	); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	cursor: pointer;
+}
+
+img#webApp:hover {
+	filter: none;
+	opacity: 0.9;
 }
 
 @keyframes fadeIn {

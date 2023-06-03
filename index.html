@@ -11,10 +11,6 @@
   <body id="mainBody">
     <div class="image" id="imageDiv">
       <img alt="cover-image" id="image" src="img/image1.webp">
-      <div>
-        <a href="https://usevia.app/"><img id="webApp" src="img/via.ico"></a>
-        <a href="https://wootility.io/"><img id="webApp" src="img/wootility.ico"></a>
-      </div>
     </div>
     <link-grid class="slide-in">
       <greeting>Welcome back!</greeting>
@@ -44,8 +40,16 @@
         <li><a href="https://thehiddenbay.com/">TheBay</a></li>
       </url-list>
     </link-grid>
+    
+    <!-- load scripts -->
     <script rel="preload" type="text/javascript" src="./local/localStorageHelper.js"></script>
     <script type="text/javascript" src="./js/dateHelper.js"></script>
     <script rel="preload" type="text/javascript" src="./js/colorHelper.js"></script>
+
+    <!-- extra links to webservices -->
+    <span style="position: absolute; top: 20pt; right: 20pt">
+      <a href="https://usevia.app/"><img id="webApp" src="https://usevia.app/favicon.ico"></a>
+      <a href="https://wootility.io/"><img id="webApp" src="https://wootility.io/favicon.ico"></a>
+    </span>
   </body>
 </html>
