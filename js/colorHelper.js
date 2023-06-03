@@ -8,7 +8,7 @@ const colors = [
   { color: "#ffffff", background: "#1D1D20", hlcol: "#dfdfdf", linkcol: "#a2a2a2", hovercol: "#FFFFFF" }, // colors for image 1
   { color: "#B7B7B9", background: "#222735", hlcol: "#C89C5D", linkcol: "#9A9BA3", hovercol: "#FFFFFF" }, // colors for image 2
   { color: "#36691F", background: "#313630", hlcol: "#B77281", linkcol: "#85889F", hovercol: "#C89C5D" }, // colors for image 3
-  { color: "#e37321", background: "#242b35", hlcol: "#dfdfdf", linkcol: "#afafaf", hovercol: "#FFFFFF" }, // colors for image 3
+  { color: "#e37321", background: "#242b35", hlcol: "#dfdfdf", linkcol: "#afafaf", hovercol: "#e37321" }, // colors for image 3
 ];
 
 function preloadImages() {
