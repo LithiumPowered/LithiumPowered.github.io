@@ -33,6 +33,7 @@ img {
 img#webApp {
 	height: 25px;
 	width: 25px;
+	margin-right: 0em;
 	border-radius: 0px;
 	box-shadow: none;
 	
