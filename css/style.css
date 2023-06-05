@@ -30,7 +30,7 @@ img {
 	object-fit: cover;
 }
 
-img#imgLink {
+img#webApp {
 	height: 25px;
 	width: 25px;
 	border-radius: 0px;
@@ -55,7 +55,7 @@ img:hover {
 	cursor: pointer;
 }
 
-img#imgLink:hover {
+img#webApp:hover {
 	filter: none;
 	opacity: 0.9;
 }
