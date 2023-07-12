@@ -1,66 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Homepage</title>
+    <title>Another Homepage</title>
     <meta charset="UTF-8">
-    <meta name="Description" content="ajc's personal homepage">
-    <meta name="keywords" content="homepage, ajc">
+    <meta name="Description" content="another dumbass webpage">
+    <meta name="keywords" content="info, cards">
     <meta name="author" content="ajc">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c2c772f2d6.js" crossorigin="anonymous"></script>
   </head>
 
-  <body id="mainBody">
-    <div class="image" id="imageDiv">
-      <img alt="cover-image" id="image" src="img/image1.webp">
-    </div>
-    <link-grid class="slide-in">
-      <greeting>Welcome back!</greeting>
-      <date id="date"></date>
-      <url-list> 
-        <li>~/general</li>
-        <li><a href="https://aur.archlinux.org/">AUR</a></li>
-        <li><a href="https://www.youtube.com/">YouTube</a></li>
-        <li><a href="https://soap2day.id/home">Soap</a></li>
-        <li><a href="https://gogoanime.is/home">GoGoAnime</a></li>
-        <li><a href="https://annas-archive.org/">Anna's Archive</a></li>
-      </url-list>
-      <url-list> 
-        <li>~/tech</li>
-        <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
-        <li><a href="https://courses.edx.org/dashboard">Edx Courses</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
-        <li><a href="https://usevia.app/">VIA</a></li>
-        <li><a href="https://wootility.io/">Wootility</a></li>
-      </url-list>
-      <url-list> 
-        <li>~/socials</li>
-        <li><a href="https://kbin.social/d/kbin.social">kbin</a></li>
-        <li><a href="https://social.linux.pizza/home">Social.Linux.Pizza</a></li>
-        <li><a href="https://twitter.com/home">Twitter</a></li>
-        <li><a href="https://imgur.com/">Imgur</a></li>
-        <li><a href="https://myjobs.indeed.com/applied">Indeed</a></li>
-      </url-list>
-      <url-list> 
-        <li>~/stores</li>
-        <li><a href="https://www.amazon.com/">Amazon</a></li>
-        <li><a href="https://www.etsy.com/?ref=lgo">Etsy</a></li>
-        <li><a href="https://www.ebay.com/">Ebay</a></li>
-        <li><a href="https://www.aliexpress.us/?gatewayAdapt=glo2usa&_randl_shipto=US">AliExpress</a></li>
-        <li><a href="https://keeb-finder.de/">KeebFinder</a></li>
-      </url-list>
-    </link-grid>
-    
-    <!-- load scripts -->
-    <script rel="preload" type="text/javascript" src="./local/localStorageHelper.js"></script>
-    <script type="text/javascript" src="./js/dateHelper.js"></script>
-    <script rel="preload" type="text/javascript" src="./js/colorHelper.js"></script>
+  <body data-nav="false">
+    <main></main>
+    <nav>
+      <div id="nav-links">
+        <a class="nav-link" href="#">
+          <h2 class="nav-link-label rubik-font">Home</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1666091863721-54331a5db52d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+        </a>
+        <a class="nav-link" href="#">
+          <h2 class="nav-link-label rubik-font">Work</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1666055642230-1595470b98fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=995&q=80" />
+        </a>
+        <a class="nav-link" href="#">
+          <h2 class="nav-link-label rubik-font">About</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1666005487638-61f45819c975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+        </a>
+        <a class="nav-link" href="#">
+          <h2 class="nav-link-label rubik-font">Contact</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1665910407771-bc84ad45676b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" />
+        </a>
+        <a class="nav-link" href="#">
+          <h2 class="nav-link-label rubik-font">Join Us</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+        </a>
+      </div>
+    </nav>
 
-    <!-- extra links to webservices -->
-    <span style="position: absolute; top: 20pt; right: 20pt">
-      <a href="https://online.patelco.org/DashboardV2"><img id="webApp" src="https://www.patelco.org/favicon.ico"></a>
-    </span>
+    <button id="nav-toggle" type="button" onclick="toggleNav()">
+      <i class="open fa-solid fa-bars-staggered"></i>
+      <i class="close fa-light fa-xmark-large"></i>
+    </button>
   </body>
 </html>
+
