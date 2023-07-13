@@ -13,7 +13,12 @@
     <script src="https://kit.fontawesome.com/c2c772f2d6.js" crossorigin="anonymous"></script>
   </head>
 
-  <body data-nav="false">
+  <body datanav="false">
+    <script type="text/javascript">
+      const toggleNav = () => {
+        document.body.dataset.nav = document.body.dataset.datanav === "true" ? "false" : "true";
+      }
+    </script> 
     <main></main>
     <nav>
       <div id="nav-links">
