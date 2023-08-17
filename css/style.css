@@ -44,6 +44,20 @@ nav {
   overflow-x: scroll;
 }
 
+#nav-links::-webkit-scrollbar {
+  height: 5px;
+}
+
+#nav-links::-webkit-scrollbar-track {
+  background: #000;
+}
+
+#nav-links::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  border: none;
+}
+
 body[data-nav="true"] > nav > #nav-links {
   transform: translateY(0%) scale(1);
 }
