@@ -42,6 +42,8 @@ nav {
   transform: translateY(70%) scale(0.9);
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
   overflow-x: scroll;
+
+  pointer-events: none;
 }
 
 #nav-links::-webkit-scrollbar {
@@ -81,6 +83,8 @@ body[data-nav="true"] > nav > #nav-links {
   border-radius: 0.75rem;
   margin-top: 0.5rem;
   object-fit: cover;
+
+  pointer-events: auto;
 }
 
 #nav-links > .nav-link > .nav-link-image:hover {
