@@ -41,6 +41,7 @@ nav {
   padding: 0rem clamp(1rem, 2vw, 2rem);
   transform: translateY(70%) scale(0.9);
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
+  overflow-x: scroll;
 }
 
 body[data-nav="true"] > nav > #nav-links {
