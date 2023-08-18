@@ -40,9 +40,10 @@ nav {
   margin-top: clamp(2rem, 2vw, 3rem);
   padding: 0rem clamp(1rem, 2vw, 2rem);
   transform: translateY(70%) scale(0.9);
-  transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
+  transition: transform 750ms cubic-bezier(.13,.53,.38,.97); 
   overflow-x: scroll;
 
+  /* chrome scrollbar */
   &::-webkit-scrollbar {
     height: 8px;
   }
@@ -53,11 +54,11 @@ nav {
     background-color: #080808;
     border-radius: 10px;
     border: none;
-    cursor: pointer;
   }
 }
 
 #nav-links:hover {
+  /* chrome scrollbar */
   &::-webkit-scrollbar-thumb {
     background-color: #353535;
   }
