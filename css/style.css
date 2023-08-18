@@ -70,8 +70,9 @@ body[data-nav="true"] > nav > #nav-links {
 
 #nav-links > .nav-link > .nav-link-label {
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   margin: 0rem;
+  margin-top: 0.75rem;
   text-transform: uppercase;
 }
 
@@ -81,14 +82,14 @@ body[data-nav="true"] > nav > #nav-links {
   width: max(20vw, 300px);
   aspect-ratio: 1.5 / 1;
   border-radius: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   object-fit: cover;
 
   pointer-events: auto;
 }
 
 #nav-links > .nav-link > .nav-link-image:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
   opacity: 85%;
   filter: grayscale(0.15);
 
