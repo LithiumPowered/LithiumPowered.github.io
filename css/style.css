@@ -42,8 +42,6 @@ nav {
   transform: translateY(70%) scale(0.9);
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
   overflow-x: scroll;
-
-  pointer-events: none;
 }
 
 #nav-links::-webkit-scrollbar {
@@ -66,6 +64,8 @@ body[data-nav="true"] > nav > #nav-links {
 
 #nav-links > .nav-link {
   text-decoration: none;
+
+  pointer-events: none;
 }
 
 #nav-links > .nav-link > .nav-link-label {
