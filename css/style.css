@@ -21,7 +21,7 @@ main {
 }
 
 body[data-nav="true"] > main {
-  transform: translateY(-50%);
+  transform: translateY(-58%);
 }
 
 nav {
@@ -100,7 +100,7 @@ body[data-nav="true"] > nav > #nav-links {
 
   transition: transform, opacity;
   transition-timing-function: ease;
-  transition-duration: 600ms;
+  transition-duration: 800ms;
 }
 
 #nav-links > .nav-link > .nav-link-image:active {
@@ -110,7 +110,7 @@ body[data-nav="true"] > nav > #nav-links {
 
   transition: transform, opacity;
   transition-timing-function: ease;
-  transition-duration: 400ms;
+  transition-duration: 800ms;
 }
 
 #nav-toggle {
@@ -129,7 +129,7 @@ body[data-nav="true"] > nav > #nav-links {
   cursor: pointer;
   transition: transform, background-color;
   transition-timing-function: ease;
-  transition-duration: 400ms;
+  transition-duration: 800ms;
 }
 
 #nav-toggle:hover {
@@ -159,7 +159,7 @@ body:not([data-nav="true"]) > #nav-toggle:hover > .open {
   opacity: 0;
   transition: transform, opacity;
   transition-timing-function: ease;
-  transition-duration: 400ms;
+  transition-duration: 800ms;
 }
 
 body[data-nav="true"] > #nav-toggle > .close {
