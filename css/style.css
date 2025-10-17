@@ -18,6 +18,7 @@ main {
   position: relative;
   z-index: 2;
   transition: transform 800ms cubic-bezier(.13,.53,.38,.97), opacity 900ms, filter 900ms;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 body[data-nav="true"] > main {
