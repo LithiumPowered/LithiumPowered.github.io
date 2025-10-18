@@ -48,6 +48,7 @@ nav {
   overflow-x: scroll;
 
   /* chrome scrollbar */
+/*   
   &::-webkit-scrollbar {
     height: 8px;
   }
@@ -60,6 +61,7 @@ nav {
     border: none;
   }
 }
+*/
 
 #nav-links:hover {
   /* chrome scrollbar */
