@@ -39,7 +39,7 @@ const COMMANDS = {
     help: "usage: edit <link path> <url>",
   },
   exit: {
-    func: joinWriter(exit),
+    func: joinWriter(exit, textWriter),
   }
 };
 
