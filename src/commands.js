@@ -56,8 +56,7 @@ function openLink(input) {
       if (locationType(target) === types.DIR) {
         return `not a link: ${path[path.length - 1]}`;
       }
-      // replace current window instead of opening new window
-      window.open(target, "_self");
+      window.location.replace(target);  // replace current window instead of opening new window
       return;
     } catch (err) {
       return err;
