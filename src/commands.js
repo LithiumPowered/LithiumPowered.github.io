@@ -245,3 +245,7 @@ function edit(input) {
     return err;
   }
 }
+
+function exit() {
+  window.close();
+}
