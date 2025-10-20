@@ -58,7 +58,8 @@ function openLink(input) {
       }
       // TODO: find method for replace current tab without replacing slot in history
       // window.open(target, "_blank", true);  // replace current tab
-      window.location.replace(target);
+      // window.location.replace(target);
+      window.location.href = target;
       return;
     } catch (err) {
       return err;
@@ -188,7 +189,8 @@ function search(input) {
   if (command && command[0]) {
     const searchString = command[0];
     // window.open(currentSearchUrl + searchString, "_blank");
-    window.location.replace(currentSearchUrl + searchString)
+    // window.location.replace(currentSearchUrl + searchString)
+    window.location.href = currentSearch + searchString;
     return;
   }
   return COMMANDS.search.help;
