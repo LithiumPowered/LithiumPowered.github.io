@@ -56,8 +56,8 @@ function openLink(input) {
       if (locationType(target) === types.DIR) {
         return `not a link: ${path[path.length - 1]}`;
       }
-      // window.open(target, "_blank", true);  // replace current tab
-      window.location.href = target // replace current tab, like clicking on a link
+      // TODO: find method for replace current tab without replacing slot in history
+      window.open(target, "_blank", true);  // replace current tab
       return;
     } catch (err) {
       return err;
